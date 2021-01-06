@@ -6,4 +6,4 @@
 
 **Site**
 --
-https://master.d1ut43hm0rfgr2.amplifyapp.com/
+https://main.d1ut43hm0rfgr2.amplifyapp.com/
