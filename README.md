@@ -1,3 +1,3 @@
 # HelloWorld
 
-![AWS] (./Users/sktl50401/AWS.png)
+![AWS](./image/AWS.png)
