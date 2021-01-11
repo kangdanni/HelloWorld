@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    Hello! This is Danni world
     <router-view></router-view>
   </div>
 </template>

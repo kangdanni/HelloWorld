@@ -1,0 +1,45 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "helloworld3c95f793",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "apib4b9bec6",
+    "apiName": "apib4b9bec6",
+    "functionArns": [
+        {
+            "lambdaFunction": "helloworld3c95f793"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-helloworld-dev-231338-authRole",
+        "unAuthRoleName": "amplify-helloworld-dev-231338-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "helloworld3c95f793",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
